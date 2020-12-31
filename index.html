@@ -7,36 +7,49 @@
     <style>
         body {
             background-color: pink;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
+
         .borderline {
-          margin: auto;
-          border: 3px dashed rgb(247, 95, 120);
-          padding: 10px;
-        }
-        .button {
-            background-color: #1c87c9;
-            border: none;
-            color: white;
-            padding: 20px 34px;
+            margin: auto;
+            border: 3px dashed rgb(247, 95, 120);
+            padding: 10px;
             text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            margin: 4px 2px;
+            width: 1000px;
+        }
+
+        .button {
+            background-color: black;
+            color: cornsilk;
+            padding: 10px 23px;
+            text-align: center;
+            text-decoration: auto;
+            display: block;
+            font-size: 25px;
+            margin: 6px 8px;
             cursor: pointer;
         }
+
         .container {
             display: flex;
             align-items: center;
             justify-content: left
         }
+
         .image {
-            flex-basis: 60%
+            flex-basis: 20%
         }
-        .text {
-            font-size: 20px;
-            padding-left: 20px;
+
+        .textstyle1 {
+            font-family: fantasy;
+            font-size: 30px;
+            padding-left: 40px;
+            color: lightcoral;
+        }
+
+        .textstyle2 {
+            font-family: cursive;
+            color: hotpink;
+            font-size: larger;
         }
     </style>
 </head>
@@ -44,18 +57,20 @@
     <div class="borderline">
         <div class="container">
             <div class="image">
-                <img width="500" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-new-year-2020-firework-greeting-card-ad-design-template-ba2b2354554447c70db103273e7874d6_screen.jpg?ts=1600179449" >
+                <img width="400" height="575" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-new-year-2020-firework-greeting-card-ad-design-template-ba2b2354554447c70db103273e7874d6_screen.jpg?ts=1600179449" >
+            </div>
+            <div class="textstyle1">
+                <p>Good "Morning", Natalie!</p>
+                <img width="500" height="75" src="http://assets.stickpng.com/images/584bd73b2623fb7bc0d0589a.png">
+                <p class="textstyle2">~ Happy New Year 2021 ~
+                </p>
+                <p>Nice to meet you in 2020 & <br>look forward to meeting you again in 2021</p>
+                <p>HAHAHAHA</p>
+                <a class="button" href="index2.html">Wanna see more? Click Me!!</a>
             </div>
 
-            <div class="text">
-                <h1>Hello, Natalie!</h1> 
-            </div>
         </div>
-        
-
-        
-        
     </div>
-    <a class="button" href="index2.html">Click Me!!</a>
+    
 </body>
 </html>
